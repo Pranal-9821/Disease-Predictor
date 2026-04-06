@@ -28,27 +28,29 @@ Standard probabilistic models often struggle with medical data due to the **Zero
 ---
 
 ## ⚙️ Project Structure
-```text
+```bash
 Disease-Predictor/
 ├── .streamlit/
-│   └── config.toml         # Custom UI theming (Medical Green)
+│   └── config.toml
 ├── dataset/
-│   └── Training.csv        # Medical dataset (132 symptoms, over 4.9k rows)
-├── app.py                  # Main Streamlit application and ML logic
-└── requirements.txt        # Python dependencies
-🚀 Installation & Local Setup
-1. Clone the Repository
-Bash
+│   └── Training.csv
+├── app.py
+└── requirements.txt
+```
+## 🚀 Installation
+
+### 1. Clone Repository
+```bash
 git clone https://github.com/Pranal-9821/Disease-Predictor.git
 cd Disease-Predictor
-2. Install Dependencies
-Ensure you have Python installed, then install the required packages. (Using a virtual environment is recommended).
+```
 
-Bash
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-3. Run the Application
-Boot up the Streamlit server:
+```
 
-Bash
+### 3. Run App
+```bash
 streamlit run app.py
-The application will automatically open in your default web browser at http://localhost:8501.
+```
