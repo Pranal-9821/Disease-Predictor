@@ -1,7 +1,7 @@
 import pandas as pd
 from pgmpy.models import DiscreteBayesianNetwork
 from pgmpy.estimators import BayesianEstimator
-
+# by Pranal-2004
 # 1. Load the dataset
 df = pd.read_csv('dataset/Training.csv')
 
